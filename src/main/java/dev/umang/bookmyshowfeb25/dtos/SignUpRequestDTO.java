@@ -1,13 +1,11 @@
-package dev.umang.bookmyshowfeb25.models;
+package dev.umang.bookmyshowfeb25.dtos;
 
-import jakarta.persistence.Entity;
 import lombok.Getter;
 import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
-public class User extends BaseModel{
+public class SignUpRequestDTO {
     private String name;
     private String email;
     private String password;
