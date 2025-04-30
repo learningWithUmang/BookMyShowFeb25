@@ -10,3 +10,11 @@ public class SignUpRequestDTO {
     private String email;
     private String password;
 }
+
+/*
+{
+    name:
+    email:
+    password:
+}
+ */
